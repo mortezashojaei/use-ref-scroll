@@ -11,7 +11,9 @@
     "build": "tsc",
     "rollup": "rollup -c",
     "ci": "(npm run build && npm run rollup) & wait",
-    "prepublishOnly": "npm run ci && npm run rollup"
+    "prepublishOnly": "npm run ci && npm run rollup",
+    "preversion": "./preversion.sh",
+    "version": "./version.sh"
   },
   "browser": "dist/useRefScroll.min.js",
   "repository": {
