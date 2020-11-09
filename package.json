@@ -9,8 +9,11 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "ci": "(npm run build && npm run rollup) & wait",
+    "prepublishOnly": "npm run ci && npm run rollup"
   },
+  "browser": "dist/useRefScroll.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mortezashojaei/use-ref-scroll.git"
