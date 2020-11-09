@@ -1,6 +1,6 @@
 {
   "name": "use-ref-scroll",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react hook helps scroll inside elements",
   "main": "dist/index.js",
   "files": [
