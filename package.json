@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A react hook helps scroll inside elements",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "tsc"
